@@ -70,12 +70,13 @@ def request(url: str, params: dict[str, Any], accept: str) -> bytes:
     req = urllib.request.Request(target, headers={"User-Agent": USER_AGENT, "Accept": accept})
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=30) as response:
+            with urllib.request.urlopen(req, timeout=45) as response:
                 return response.read()
-        except (urllib.error.URLError, http.client.HTTPException, OSError, TimeoutError):
+        except (urllib.error.URLError, http.client.HTTPException, OSError, TimeoutError) as error:
             if attempt == 2:
                 raise
-            time.sleep(2**attempt)
+            delay = 10 * (attempt + 1) if isinstance(error, urllib.error.HTTPError) and error.code == 429 else 2**attempt
+            time.sleep(delay)
     raise RuntimeError("unreachable")
 
 
@@ -299,8 +300,10 @@ def main() -> int:
     failures: list[str] = []
     for source in config["sources"]:
         consecutive_failures = 0
-        for query in config["queries"]:
+        for index, query in enumerate(config["queries"]):
             try:
+                if source == "arxiv" and index:
+                    time.sleep(3.5)  # arXiv asks automated clients to leave a gap between calls.
                 collected.extend(FETCHERS[source](query, since, int(config["max_results_per_query"])))
                 consecutive_failures = 0
             except Exception as exc:

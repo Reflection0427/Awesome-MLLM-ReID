@@ -21,10 +21,10 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -47,7 +47,7 @@ jobs:
           python -m unittest discover -s tests -v
 
       - name: Upload review report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: mllm-reid-paper-candidate-report
           path: .paper-tracker/
@@ -56,7 +56,7 @@ jobs:
 
       - name: Create or update candidate pull request
         id: candidate_pr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ github.token }}
           branch: automation/mllm-reid-paper-candidates
