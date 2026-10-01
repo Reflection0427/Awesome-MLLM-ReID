@@ -1,0 +1,652 @@
+[
+  {
+    "id": "cot-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "CVPR 2026",
+    "method": "CoT-ReID",
+    "title": "Chain-of-Thought Guided Multi-Modal Object Re-Identification",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/cot-reid.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.pdf",
+      "source_pdf_sha256": "e0aff58aefc2c39001bc7b36e69476fe2e24b074d964b0f1ef7237e6a84b0efa",
+      "figure_label": "Figure 4",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        60.0,
+        72.96,
+        554.4,
+        410.4
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "auto-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "Findings of ACL 2026",
+    "method": "Auto-ReID",
+    "title": "Iterative Self-Correction for Text-Driven Person Re-Identification with Large Vision-Language Models",
+    "paper_url": "https://aclanthology.org/2026.findings-acl.312/",
+    "code_url": "https://github.com/GridNexus/Auto-ReID",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/auto-reid.png",
+      "source_pdf_url": "https://aclanthology.org/2026.findings-acl.312.pdf",
+      "source_pdf_sha256": "1bc3b4be9efe33677b9ba4024d238c8bfb6496ddc3e534565e58770b6e2e896a",
+      "figure_label": "Figure 1",
+      "figure_kind": "pipeline",
+      "page": 3,
+      "crop_pt": [
+        69.6,
+        69.6,
+        525.12,
+        298.08
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "mnemo",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "ICML 2026",
+    "method": "MNEMO",
+    "title": "Interactive Person Retrieval via Multi-Turn Multimodal Conversation",
+    "paper_url": "https://proceedings.mlr.press/v306/bai26j.html",
+    "code_url": "https://github.com/Flame-Chasers/MNEMO",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/mnemo.png",
+      "source_pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/bai26j/bai26j.pdf",
+      "source_pdf_sha256": "5e4c49c7770ef4f70708938f31535fe5ebcadb7bdb630efcd5c286ca9cf09119",
+      "figure_label": "Figure 2",
+      "figure_kind": "architecture",
+      "page": 5,
+      "crop_pt": [
+        64.8,
+        66.72,
+        530.4,
+        350.4
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "muse",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "method": "MUSE",
+    "title": "Multimodal LLM-Empowered Re-Ranking for Generalizable Person Re-Identification",
+    "paper_url": "https://arxiv.org/abs/2606.16161",
+    "code_url": "https://github.com/RikoLi/MUSE",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/muse.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2606.16161v1",
+      "source_pdf_sha256": "d483692343f5e42f838d644dbbf806c49dded6d7aeddb3faba986f3e100c0294",
+      "figure_label": "Figure 2",
+      "figure_kind": "pipeline",
+      "page": 4,
+      "crop_pt": [
+        61.92,
+        72.0,
+        554.4,
+        276.0
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "muva",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "IET Computer Vision 2026",
+    "method": "MUVA",
+    "title": "Multi-Grained Vision-Language Alignment for Domain Generalized Person Re-Identification",
+    "paper_url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cvi2.70062",
+    "code_url": "https://github.com/RikoLi/MUVA",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/muva.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2603.14012v1",
+      "source_pdf_sha256": "6114373194cd2ae37348288b3f5988f4f8e925293abf7e13fcadaa8fbec92695",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        61.44,
+        73.92,
+        549.12,
+        357.12
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "lvlm-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "ICASSP 2026",
+    "method": "LVLM-ReID",
+    "title": "When Large Vision-Language Models Meet Person Re-Identification",
+    "paper_url": "https://arxiv.org/abs/2411.18111",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/lvlm-reid.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2411.18111v2",
+      "source_pdf_sha256": "286ec9ffc9bc342e1117aa9944067629e8419e55b306949eea9fa28e0eebdc30",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 2,
+      "crop_pt": [
+        125.76,
+        72.0,
+        485.28,
+        247.2
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "chatreid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "ICCV 2025",
+    "method": "ChatReID",
+    "title": "ChatReID: Open-ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Niu_ChatReID_Open-ended_Interactive_Person_Retrieval_via_Hierarchical_Progressive_Tuning_for_ICCV_2025_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/chatreid.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2502.19958v3",
+      "source_pdf_sha256": "99c1c5ff91e7c2f4ccafd04a878c318ec243bf013b856471db667f60899a18cb",
+      "figure_label": "Figure 3",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        58.56,
+        72.0,
+        553.44,
+        234.72
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "llava-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "ICML 2025",
+    "method": "LLaVA-ReID",
+    "title": "LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification",
+    "paper_url": "https://proceedings.mlr.press/v267/lu25s.html",
+    "code_url": "https://github.com/XLearning-SCU/LLaVA-ReID",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/llava-reid.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2504.10174v3",
+      "source_pdf_sha256": "2e410da3c62d9f8176fc60ba0f3935096bafc6159439b1a21c3c65df6e50a442",
+      "figure_label": "Figure 3",
+      "figure_kind": "framework",
+      "page": 5,
+      "crop_pt": [
+        72.48,
+        72.96,
+        521.28,
+        277.44
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "icl-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "CVPR 2025",
+    "method": "ICL",
+    "title": "Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/icl-reid.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.pdf",
+      "source_pdf_sha256": "1af024abc8014588c226eb7d419e32666d3d17c7f83f2a2dd51bcad9841ff8f8",
+      "figure_label": "Figure 2",
+      "figure_kind": "pipeline",
+      "page": 3,
+      "crop_pt": [
+        72.96,
+        72.48,
+        541.44,
+        253.44
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "annotator-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "CVPR 2025",
+    "method": "HAM + UPS",
+    "title": "Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Modeling_Thousands_of_Human_Annotators_for_Generalizable_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/annotator-reid.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_Modeling_Thousands_of_Human_Annotators_for_Generalizable_Text-to-Image_Person_Re-identification_CVPR_2025_paper.pdf",
+      "source_pdf_sha256": "7daeaa52015ce746f68cdc5fdc27b0fab4c156442d25348f8b74048af2385598",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        57.6,
+        70.56,
+        554.4,
+        307.2
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "vicp-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "ICCV 2025",
+    "method": "VICP",
+    "title": "Generalizable Object Re-Identification via Visual In-Context Prompting",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Huang_Generalizable_Object_Re-Identification_via_Visual_In-Context_Prompting_ICCV_2025_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/vicp-reid.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_Generalizable_Object_Re-Identification_via_Visual_In-Context_Prompting_ICCV_2025_paper.pdf",
+      "source_pdf_sha256": "b9cfff96bd8fcc00f2201707426a21429b4f70837c121a468e29765ee09d03fd",
+      "figure_label": "Figure 2",
+      "figure_kind": "architecture",
+      "page": 3,
+      "crop_pt": [
+        60.0,
+        72.96,
+        554.4,
+        265.44
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "pvtnl",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "Findings of EMNLP 2025",
+    "method": "PVTNL",
+    "title": "PVTNL: Prompting Vision Transformers with Natural Language for Generalizable Person Re-identification",
+    "paper_url": "https://aclanthology.org/2025.findings-emnlp.1181/",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/pvtnl.png",
+      "source_pdf_url": "https://aclanthology.org/2025.findings-emnlp.1181.pdf",
+      "source_pdf_sha256": "842fb6742b9ca03e559843cb76b7ef750e530737246287478788bc8da119cee8",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        72.96,
+        73.44,
+        522.24,
+        354.24
+      ],
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  {
+    "id": "mmreid-bench",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2025,
+    "venue": "arXiv 2025",
+    "method": "MMReID-Bench",
+    "title": "MMReID-Bench: Unleashing the Power of MLLMs for Effective and Versatile Person Re-identification",
+    "paper_url": "https://arxiv.org/abs/2508.06908",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/mmreid-bench.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2508.06908v2",
+      "source_pdf_sha256": "72b666c5b27430e28c812b883852088b3436924dee3619c76e9cd9f996640b7d",
+      "figure_label": "Figure 2",
+      "figure_kind": "benchmark",
+      "page": 3,
+      "crop_pt": [
+        57.6,
+        70.56,
+        554.4,
+        222.24
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "mllm4text-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2024,
+    "venue": "CVPR 2024",
+    "method": "MLLM4Text-ReID",
+    "title": "Harnessing the Power of MLLMs for Transferable Text-to-Image Person ReID",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Harnessing_the_Power_of_MLLMs_for_Transferable_Text-to-Image_Person_ReID_CVPR_2024_paper.html",
+    "code_url": "https://github.com/MPI-Lab/MLLM4Text-ReID",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/mllm4text-reid.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2405.04940v3",
+      "source_pdf_sha256": "f36ab396bb7b72d31c59bb8aa0175a91b245319edae9d0c0582bd01f38ab85be",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        49.92,
+        61.92,
+        545.28,
+        321.12
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "instruct-reid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2024,
+    "venue": "CVPR 2024",
+    "method": "Instruct-ReID",
+    "title": "Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.html",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/instruct-reid.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.pdf",
+      "source_pdf_sha256": "83d4d619692262039f6ce3855bf789c84f58472289e21b4a1a9d4b4609ee60f6",
+      "figure_label": "Figure 3",
+      "figure_kind": "architecture",
+      "page": 5,
+      "crop_pt": [
+        66.24,
+        72.0,
+        528.0,
+        212.64
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "mllmreid",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2024,
+    "venue": "arXiv 2024",
+    "method": "MLLMReID",
+    "title": "MLLMReID: Multimodal Large Language Model-based Person Re-identification",
+    "paper_url": "https://arxiv.org/abs/2401.13201",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/mllmreid.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2401.13201v3",
+      "source_pdf_sha256": "31a7c7d8e659786874187ddec817eec47b6bf1b6b85ef74195e98b39ac539b42",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 3,
+      "crop_pt": [
+        53.76,
+        53.76,
+        563.04,
+        464.16
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "freeret",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2026,
+    "venue": "ICML 2026",
+    "method": "FreeRet",
+    "title": "FreeRet: MLLMs as Training-Free Retrievers",
+    "paper_url": "https://arxiv.org/abs/2509.24621",
+    "code_url": "https://github.com/MCG-NJU/FreeRet",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/freeret.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2509.24621v3",
+      "source_pdf_sha256": "8bd345876b7e47a4bacc01103ed6b2b5652526f46b04d0d98705167201668ddb",
+      "figure_label": "Figure 1",
+      "figure_kind": "overview",
+      "page": 2,
+      "crop_pt": [
+        68.64,
+        66.72,
+        525.12,
+        234.72
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "u-marvel",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2026,
+    "venue": "ICLR 2026",
+    "method": "U-MARVEL",
+    "title": "U-MARVEL: Unveiling Key Factors for Universal Multimodal Retrieval via Embedding Learning with MLLMs",
+    "paper_url": "https://arxiv.org/abs/2507.14902",
+    "code_url": "https://github.com/chaxjli/U-MARVEL",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/u-marvel.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2507.14902v2",
+      "source_pdf_sha256": "ea3829b7d33afe5692903f4a39ed3db4f08e4575a4f3d80ee2b12e5c9f7efbe4",
+      "figure_label": "Figure 1",
+      "figure_kind": "framework",
+      "page": 2,
+      "crop_pt": [
+        108.96,
+        82.56,
+        504.0,
+        196.8
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "recall",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2026,
+    "venue": "CVPR 2026",
+    "method": "ReCALL",
+    "title": "ReCALL: Recalibrating Capability Degradation for MLLM-based Composed Image Retrieval",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_ReCALL_Recalibrating_Capability_Degradation_for_MLLM-based_Composed_Image_Retrieval_CVPR_2026_paper.html",
+    "code_url": "https://github.com/RemRico/Recall",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/recall.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2602.01639v2",
+      "source_pdf_sha256": "31c482114fca22233799278798a4dff64dcae6bb072dacd35631d79fc511dd29",
+      "figure_label": "Figure 2",
+      "figure_kind": "framework",
+      "page": 4,
+      "crop_pt": [
+        58.56,
+        72.0,
+        553.44,
+        377.28
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "distillcir",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "ICCV 2025",
+    "method": "DistillCIR",
+    "title": "Zero-Shot Composed Image Retrieval via Dual-Stream Instruction-Aware Distillation",
+    "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhong_Zero-Shot_Composed_Image_Retrieval_via_Dual-Stream_Instruction-Aware_Distillation_ICCV_2025_paper.html",
+    "code_url": "",
+    "project_url": "https://distillcir.github.io/",
+    "figure": {
+      "path": "assets/frameworks/distillcir.png",
+      "source_pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_Zero-Shot_Composed_Image_Retrieval_via_Dual-Stream_Instruction-Aware_Distillation_ICCV_2025_paper.pdf",
+      "source_pdf_sha256": "554c958578564410601b9e664ae2f912fea317cf0fe1bb4430d7bccaf732a9bb",
+      "figure_label": "Figure 2",
+      "figure_kind": "pipeline",
+      "page": 4,
+      "crop_pt": [
+        58.56,
+        72.0,
+        554.4,
+        227.04
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "vlm2vec",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "ICLR 2025",
+    "method": "VLM2Vec",
+    "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+    "paper_url": "https://arxiv.org/abs/2410.05160",
+    "code_url": "https://github.com/TIGER-AI-Lab/VLM2Vec",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/vlm2vec.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2410.05160v3",
+      "source_pdf_sha256": "be7ff7f444ee9af8140a6d6544830dd32ec10db67f9c196d205508b4d26ffde5",
+      "figure_label": "Figure 3",
+      "figure_kind": "architecture",
+      "page": 6,
+      "crop_pt": [
+        128.64,
+        86.88,
+        483.36,
+        201.12
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "mm-embed",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "ICLR 2025",
+    "method": "MM-Embed",
+    "title": "MM-Embed: Universal Multimodal Retrieval with Multimodal LLMs",
+    "paper_url": "https://openreview.net/forum?id=i45NQb2iKO",
+    "code_url": "",
+    "project_url": "https://huggingface.co/nvidia/MM-Embed",
+    "figure": {
+      "path": "assets/frameworks/mm-embed.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2411.02571v2",
+      "source_pdf_sha256": "863b0cb36f903ecb66a04bec3be3383cb910f2961a23b9dcd280aa86fb07519e",
+      "figure_label": "Figure 1",
+      "figure_kind": "overview",
+      "page": 3,
+      "crop_pt": [
+        116.64,
+        81.6,
+        495.36,
+        290.88
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "cir-lvlm",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "AAAI 2025",
+    "method": "CIR-LVLM",
+    "title": "Leveraging Large Vision-Language Model as User Intent-Aware Encoder for Composed Image Retrieval",
+    "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32768",
+    "code_url": "",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/cir-lvlm.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2412.11087v1",
+      "source_pdf_sha256": "203badc49964295c7f4da2d07c6852813bf5a612ed29c819b01c850aabec9771",
+      "figure_label": "Figure 2",
+      "figure_kind": "architecture",
+      "page": 3,
+      "crop_pt": [
+        53.76,
+        52.8,
+        558.72,
+        222.24
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "cotrr",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "arXiv 2025",
+    "method": "CoTRR",
+    "title": "Chain-of-Thought Re-ranking for Image Retrieval Tasks",
+    "paper_url": "https://arxiv.org/abs/2509.14746",
+    "code_url": "https://github.com/freshfish15/CoTRR",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/cotrr.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2509.14746v1",
+      "source_pdf_sha256": "32d381dda07bfe25503dd30a0bfb4f8532d915f03833507d895a56de3217db2e",
+      "figure_label": "Figure 1",
+      "figure_kind": "pipeline",
+      "page": 2,
+      "crop_pt": [
+        54.72,
+        72.0,
+        559.2,
+        268.32
+      ],
+      "license_url": null
+    }
+  },
+  {
+    "id": "soft",
+    "section": "Related MLLM Retrieval / Re-ranking",
+    "year": 2025,
+    "venue": "arXiv 2025",
+    "method": "SoFT",
+    "title": "Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints",
+    "paper_url": "https://arxiv.org/abs/2512.20781",
+    "code_url": "https://github.com/jjungyujin/SoFT",
+    "project_url": "",
+    "figure": {
+      "path": "assets/frameworks/soft.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2512.20781v1",
+      "source_pdf_sha256": "8145658b16d6c1af4401341280b9938f6b51e68023b4d16110c303808e95c8d5",
+      "figure_label": "Figure 2",
+      "figure_kind": "pipeline",
+      "page": 3,
+      "crop_pt": [
+        67.68,
+        62.88,
+        545.28,
+        216.48
+      ],
+      "license_url": null
+    }
+  }
+]

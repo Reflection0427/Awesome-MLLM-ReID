@@ -1,0 +1,17 @@
+{
+  "lookback_days": 60,
+  "max_results_per_query": 25,
+  "max_candidates": 40,
+  "minimum_score": 7,
+  "sources": ["arxiv", "openalex", "crossref"],
+  "queries": [
+    "multimodal large language model person re-identification",
+    "large vision-language model person re-identification",
+    "MLLM ReID",
+    "interactive person retrieval multimodal",
+    "large language model object re-identification",
+    "MLLM text-to-image person re-identification",
+    "vision in-context prompting object re-identification"
+  ],
+  "ignored_titles": []
+}
