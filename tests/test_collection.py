@@ -4,6 +4,7 @@ import unittest
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -92,6 +93,29 @@ class CollectionTests(unittest.TestCase):
         left = discover_papers.Candidate(title="Example MLLM ReID", paper_url="https://arxiv.org/abs/2601.01234", arxiv_id="2601.01234")
         right = discover_papers.Candidate(title="Example: MLLM-ReID", paper_url="https://example.org/paper", arxiv_id="2601.01234")
         self.assertTrue(discover_papers.same_paper(left, right))
+
+    def test_crossref_ignores_review_and_publishing_notices(self):
+        response = {
+            "message": {
+                "items": [
+                    {
+                        "type": "peer-review",
+                        "title": ["Review of: MLLM ReID"],
+                        "DOI": "10.1000/review",
+                    },
+                    {
+                        "type": "journal-article",
+                        "title": ["A Multimodal Model for Person Re-Identification"],
+                        "DOI": "10.1000/article",
+                        "URL": "https://doi.org/10.1000/article",
+                        "published": {"date-parts": [[2026, 10, 1]]},
+                    },
+                ]
+            }
+        }
+        with patch.object(discover_papers, "get_json", return_value=response):
+            found = discover_papers.fetch_crossref("MLLM ReID", "2026-09-01", 10)
+        self.assertEqual([candidate.doi for candidate in found], ["10.1000/article"])
 
     def test_relevance_gate(self):
         relevant = discover_papers.Candidate(
