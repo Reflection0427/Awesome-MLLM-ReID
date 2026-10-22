@@ -371,7 +371,7 @@
     "method": "Instruct-ReID",
     "title": "Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/hwz-zju/Instruct-ReID",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/instruct-reid.png",
