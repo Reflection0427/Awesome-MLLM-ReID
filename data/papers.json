@@ -1,5 +1,47 @@
 [
   {
+    "id": "reid-r",
+    "section": "Core MLLM / LVLM ReID",
+    "year": 2026,
+    "venue": "arXiv 2026",
+    "method": "ReID-R",
+    "title": "Thinking Before Matching: A Reinforcement Reasoning Paradigm Towards General Person Re-Identification",
+    "paper_url": "https://arxiv.org/abs/2604.19218v1",
+    "code_url": "",
+    "project_url": "",
+    "authors": [
+      "Quan Zhang",
+      "Jingze Wu",
+      "Jialong Wang",
+      "Xiaohua Xie",
+      "Jianhuang Lai",
+      "Hongbo Chen"
+    ],
+    "arxiv_id": "2604.19218",
+    "first_submitted": "2026-04-21",
+    "review_note": "docs/reviews/reid-r.md",
+    "figure": {
+      "path": "assets/frameworks/reid-r.png",
+      "source_pdf_url": "https://arxiv.org/pdf/2604.19218v1",
+      "source_pdf_sha256": "7418767c984913541d51ed5e1f2bbbf009cde7d6b78cc769862acf273b43ecca",
+      "figure_label": "Figure 2",
+      "figure_kind": "pipeline",
+      "page": 4,
+      "crop_pt": [
+        48.0,
+        80.0,
+        564.0,
+        241.0
+      ],
+      "license_url": null,
+      "crop_coordinate_system": "PDF points (1/72 inch), top-left origin; [x0, y0, x1, y1]; one-based PDF page",
+      "source": "Direct crop of the author-created Figure 2 in the pinned official arXiv PDF; both stages, all arrows and subfigure labels retained.",
+      "rights_holder": "Paper authors and/or other original rights holders; repository MIT license does not apply to this figure.",
+      "attribution": "Quan Zhang, Jingze Wu, Jialong Wang, Xiaohua Xie, Jianhuang Lai, Hongbo Chen",
+      "arxiv_distribution_license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+    }
+  },
+  {
     "id": "cot-reid",
     "section": "Core MLLM / LVLM ReID",
     "year": 2026,
