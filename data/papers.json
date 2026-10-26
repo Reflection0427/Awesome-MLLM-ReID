@@ -215,7 +215,7 @@
     "method": "ICL",
     "title": "Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/QinYang79/ICL",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/icl-reid.png",
