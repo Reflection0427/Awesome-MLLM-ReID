@@ -241,7 +241,7 @@
     "method": "HAM + UPS",
     "title": "Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Modeling_Thousands_of_Human_Annotators_for_Generalizable_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/MPI-Lab/HAM",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/annotator-reid.png",
