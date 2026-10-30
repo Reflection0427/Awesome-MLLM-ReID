@@ -257,7 +257,7 @@
     "method": "ICL",
     "title": "Human-centered Interactive Learning via MLLMs for Text-to-Image Person Re-identification",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qin_Human-centered_Interactive_Learning_via_MLLMs_for_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/QinYang79/ICL",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/icl-reid.png",
@@ -283,7 +283,7 @@
     "method": "HAM + UPS",
     "title": "Modeling Thousands of Human Annotators for Generalizable Text-to-Image Person Re-identification",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Modeling_Thousands_of_Human_Annotators_for_Generalizable_Text-to-Image_Person_Re-identification_CVPR_2025_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/MPI-Lab/HAM",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/annotator-reid.png",
@@ -309,7 +309,7 @@
     "method": "VICP",
     "title": "Generalizable Object Re-Identification via Visual In-Context Prompting",
     "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Huang_Generalizable_Object_Re-Identification_via_Visual_In-Context_Prompting_ICCV_2025_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/Hzzone/VICP",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/vicp-reid.png",
@@ -413,7 +413,7 @@
     "method": "Instruct-ReID",
     "title": "Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/hwz-zju/Instruct-ReID",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/instruct-reid.png",
