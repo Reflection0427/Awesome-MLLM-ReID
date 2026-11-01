@@ -7,7 +7,7 @@
     "method": "CoT-ReID",
     "title": "Chain-of-Thought Guided Multi-Modal Object Re-Identification",
     "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Chain-of-Thought_Guided_Multi-Modal_Object_Re-Identification_CVPR_2026_paper.html",
-    "code_url": "",
+    "code_url": "https://github.com/Gaoya615/CoT-ReID",
     "project_url": "",
     "figure": {
       "path": "assets/frameworks/cot-reid.png",
