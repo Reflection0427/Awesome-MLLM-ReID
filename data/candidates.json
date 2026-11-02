@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "title": "Review of: \"When Large Vision-Language Models Meet Person Re-Identification\"",
+    "paper_url": "https://doi.org/10.32388/2u84xv",
+    "published": "2026-10-04",
+    "authors": [
+      "Evgenii Arsentev"
+    ],
+    "abstract": "",
+    "venue": "",
+    "doi": "10.32388/2u84xv",
+    "arxiv_id": "",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 10,
+    "reasons": [
+      "direct ReID/person-retrieval evidence",
+      "large multimodal/language model evidence"
+    ],
+    "suggested_section": "Core MLLM / LVLM ReID",
+    "status": "needs-review"
+  }
+]
