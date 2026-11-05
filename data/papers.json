@@ -526,7 +526,7 @@
     "venue": "ICLR 2025",
     "method": "VLM2Vec",
     "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
-    "paper_url": "https://arxiv.org/abs/2410.05160",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/04261fce1705c4f02f062866717d592a-Abstract-Conference.html",
     "code_url": "https://github.com/TIGER-AI-Lab/VLM2Vec",
     "project_url": "",
     "figure": {
