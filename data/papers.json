@@ -422,7 +422,7 @@
     "venue": "ICML 2026",
     "method": "FreeRet",
     "title": "FreeRet: MLLMs as Training-Free Retrievers",
-    "paper_url": "https://arxiv.org/abs/2509.24621",
+    "paper_url": "https://proceedings.mlr.press/v306/zhu26ba.html",
     "code_url": "https://github.com/MCG-NJU/FreeRet",
     "project_url": "",
     "figure": {
