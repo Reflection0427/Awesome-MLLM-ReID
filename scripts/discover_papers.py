@@ -161,6 +161,8 @@ def fetch_crossref(query: str, since: str, limit: int) -> list[Candidate]:
         params["mailto"] = os.environ["PAPER_TRACKER_EMAIL"]
     rows: list[Candidate] = []
     for item in get_json("https://api.crossref.org/works", params).get("message", {}).get("items", []):
+        if item.get("type") in {"peer-review", "editorial", "correction", "retraction"}:
+            continue
         doi = normalize_doi(item.get("DOI", ""))
         rows.append(Candidate(
             title=compact((item.get("title") or [""])[0]),
