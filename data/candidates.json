@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "title": "Review of: \"When Large Vision-Language Models Meet Person Re-Identification\"",
+    "paper_url": "https://doi.org/10.32388/2u84xv",
+    "published": "2026-10-04",
+    "authors": [
+      "Evgenii Arsentev"
+    ],
+    "abstract": "",
+    "venue": "",
+    "doi": "10.32388/2u84xv",
+    "arxiv_id": "",
+    "sources": [
+      "Crossref"
+    ],
+    "score": 10,
+    "reasons": [
+      "direct ReID/person-retrieval evidence",
+      "large multimodal/language model evidence"
+    ],
+    "suggested_section": "Core MLLM / LVLM ReID",
+    "status": "needs-review"
+  },
+  {
+    "title": "Evidence-Grounded Reliable Anchoring for Interactive Text-to-Image Person Re-identification",
+    "paper_url": "https://doi.org/10.1145/3767308.3835003",
+    "published": "2026-11-06",
+    "authors": [
+      "Haotian Tang",
+      "Li Yao",
+      "Yuanyang Zhang"
+    ],
+    "abstract": "Text-to-image person re-identification (TIReID) aims to retrieve pedestrian images from a gallery according to a natural-language query. Recent multimodal large language model (MLLM)-based interactive TIReID frameworks improve retrieval flexibility through test-time interaction, but their effectiveness heavily depends on anchor selection. Existing methods typically rely on first-positive acceptance, which suffers from two coupled issues. First, the MLLM judge is commonly adapted with coarse response-level supervision, so a positive decision may be weakly grounded in query-relevant visual evidence. Second, positive compatibility alone does not guarantee anchor suitability: among positively matched candidates, some may still conflict with the query, provide weaker support for query-critical attributes, or expose only a fragmented portion of the query-mentioned evidence. To address these issues, we reformulate anchor selection in interactive TIReID as a reliable anchoring problem and propose Evidence-Grounded Reliable Anchoring (EGRA), a two-stage framework that improves anchor selection from both judgment grounding and anchor qualification perspectives. Specifically, EGRA combines Evidence-Grounded Anchor Learning (EAL), which augments MLLM adaptation with structured human-centric evidence supervision to produce more grounded positive judgments, and Interaction-Ready Anchor Qualification (IAQ), which replaces first-positive acceptance with staged non-compensatory qualification over a tiny positive shortlist based on contradiction, explicit query support, and visual completeness. Extensive experiments on CUHK-PEDES, ICFG-PEDES, and RSTPReid demonstrate that EGRA consistently outperforms strong interactive baselines under both standard and ReID-domain pre-training settings. Additional ablation, efficiency, and anchor-selection analyses further confirm the effectiveness and practicality of the proposed framework.",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "doi": "10.1145/3767308.3835003",
+    "arxiv_id": "",
+    "sources": [
+      "Crossref",
+      "OpenAlex"
+    ],
+    "score": 9,
+    "reasons": [
+      "direct ReID/person-retrieval evidence",
+      "large multimodal/language model evidence",
+      "retrieval or matching task"
+    ],
+    "suggested_section": "Core MLLM / LVLM ReID",
+    "status": "needs-review"
+  },
+  {
+    "title": "Noise-as-Hallucination: Geodesic-Aware Contrastive Dehallucination for Robust Text-to-Image Person ReID",
+    "paper_url": "https://doi.org/10.1145/3767308.3835012",
+    "published": "2026-11-06",
+    "authors": [
+      "XiangWen Deng",
+      "Bingzhi Chen",
+      "Yishu Liu",
+      "Sudong Cai",
+      "Guangming Lu",
+      "Jie Wen"
+    ],
+    "abstract": "Existing text-to-image person re-identification (TIReID) methods remain susceptible to corrupted supervision, facing both human-annotated noisy correspondence and MLLM-generated caption hallucinations. In this paper, we identify a unified geometric nature of human-annotated noisy correspondence and MLLM-generated caption hallucinations. To this end, we pioneer the Noise-as-Hallucination paradigm, shifting the robust learning philosophy from a \"data-inefficient detect-and-suppress\" practice to a principled \"detect-and-cure\" strategy. To operationalize this, we propose GCD-ReID, a Geodesic-Aware Contrastive Dehallucination framework grounded in Riemannian geometry to overcome the distortion of Euclidean metrics on the Contrastive Language-Image Pretraining (CLIP) hypersphere. Specifically, we project visual features into local Tangent Spaces via the Logarithmic Map to estimate Identity-Specific Dimensional Uncertainty. This geometric prior rigorously decouples benign view-induced variance from genuine semantic mismatches. Guided by this disentanglement, GCD-ReID integrates Instance-Aware Noise Detection (IND) to reliably isolate correspondence errors and Dimension-Aware Contrastive Dehallucination (DCD) to perform surgical rectification on spurious semantic conflicts. Extensive experiments on multiple standard benchmarks demonstrate that GCD-ReID exhibits superior robustness across the entire noise spectrum, maintaining high accuracy on clean datasets while outperforming competitors in high-noise regimes.",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "doi": "10.1145/3767308.3835012",
+    "arxiv_id": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "score": 8,
+    "reasons": [
+      "direct ReID/person-retrieval evidence",
+      "large multimodal/language model evidence"
+    ],
+    "suggested_section": "Core MLLM / LVLM ReID",
+    "status": "needs-review"
+  }
+]
