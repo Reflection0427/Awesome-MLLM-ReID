@@ -20,9 +20,9 @@ class CollectionTests(unittest.TestCase):
         cls.papers = generate_readme.load_papers()
 
     def test_seed_collection_size_and_sections(self):
-        self.assertEqual(len(self.papers), 25)
+        self.assertEqual(len(self.papers), 26)
         self.assertEqual(Counter(paper["section"] for paper in self.papers), {
-            "Core MLLM / LVLM ReID": 16,
+            "Core MLLM / LVLM ReID": 17,
             "Related MLLM Retrieval / Re-ranking": 9,
         })
 
@@ -58,7 +58,7 @@ class CollectionTests(unittest.TestCase):
         expected = {ROOT / paper["figure"]["path"] for paper in self.papers}
         actual = set((ROOT / "assets" / "frameworks").glob("*.png"))
         self.assertEqual(actual, expected)
-        self.assertEqual(len(actual), 25)
+        self.assertEqual(len(actual), 26)
         self.assertEqual(list((ROOT / "assets" / "frameworks").glob("*.svg")), [])
         for path in sorted(actual):
             with self.subTest(image=path.name):
@@ -69,9 +69,9 @@ class CollectionTests(unittest.TestCase):
         actual = (ROOT / "README.md").read_text(encoding="utf-8")
         self.assertEqual(expected, actual)
         self.assertIn("| Conference / Journal | Method | Title | Resources | Framework |", actual)
-        self.assertEqual(actual.count('<img src="assets/frameworks/'), 25)
-        self.assertEqual(actual.count("Original paper figure: Figure"), 25)
-        self.assertEqual(actual.count("© Paper authors/publisher. All rights remain with the original owner."), 25)
+        self.assertEqual(actual.count('<img src="assets/frameworks/'), 26)
+        self.assertEqual(actual.count("Original paper figure: Figure"), 26)
+        self.assertEqual(actual.count("© Paper authors/publisher. All rights remain with the original owner."), 26)
         self.assertNotIn("CURATOR-DRAWN", actual)
         self.assertNotRegex(actual, r'assets/frameworks/[^" ]+\.svg')
 
